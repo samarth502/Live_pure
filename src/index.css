@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles.css */
+
+/* Animation for FAQ answer expansion */
+.expand-enter {
+  opacity: 0;
+  max-height: 0;
+}
+
+.expand-enter-active {
+  opacity: 1;
+  max-height: 100px; /* Set this value to the maximum expected height of the answer content */
+  transition: opacity 300ms, max-height 300ms;
+}
+
+.expand-exit {
+  opacity: 1;
+  max-height: 100px; /* Set this value to the maximum expected height of the answer content */
+}
+
+.expand-exit-active {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 300ms, max-height 300ms;
+}
