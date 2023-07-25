@@ -41,7 +41,7 @@ const FAQ = () => {
 
   return (
     <>
-    <h1>Frequently Asked Questions About Liv Pure Tablets</h1>
+    <h1 className='text-5xl font-extrabold text-center mt-12'>Frequently Asked Questions About Liv Pure Tablets</h1>
     <div className="w-[80%] mx-auto mt-12 ">
       {faqData.map((faq, index) => (
         <div
@@ -54,7 +54,7 @@ const FAQ = () => {
           >
             <h3 className="text-4xl font-bold ">{faq.question}</h3>
             <FontAwesomeIcon
-              icon={expandedIndex === index ? faMinus : faPlus}
+              icon={expandedIndex === index? faMinus : faPlus}
               className="text-gray-500"
             />
           </div>

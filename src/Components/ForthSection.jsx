@@ -5,7 +5,7 @@ const ForthSection = () =>{
     return (
         <>
         <div className="bg-sky-900 text-white font-semibold ">
-            <h1 className="text-6xl items-center text-center p-6">Why Choose Liv Pure Liver Support Formula?
+            <h1 className="md:text-6xl xs:text-3xl items-center text-center p-6">Why Choose Liv Pure Liver Support Formula?
             </h1>
             </div>
 

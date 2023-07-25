@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+
+
+@layer base {
+  * {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+
+  }
+
+
 /* styles.css */
 
 /* Animation for FAQ answer expansion */
@@ -26,4 +36,12 @@
   opacity: 0;
   max-height: 0;
   transition: opacity 300ms, max-height 300ms;
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2{
+  font-family: 'Poppins', sans-serif;
+}
 }

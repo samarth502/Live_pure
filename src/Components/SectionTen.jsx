@@ -15,7 +15,7 @@ const SectionTen = () => {
         </h2>
         <h1 className="text-5xl text-white font-bold pb-12">Only for: $39/per Bottle</h1>
         <button className=" bg-yellow-400 rounded-2xl shadow-lg shadow-cyan-500/50 text-black text-2xl font-extrabold  px-12 py-6 mb-12">
-            GET UPTO 50% DISCOUNT NOW
+            <a href="https://www.liv-pure.com/welcome?hop=dimpleb">GET UPTO 50% DISCOUNT NOW</a>
         </button>
     </div>
   )

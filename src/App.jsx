@@ -17,6 +17,8 @@ import FAQ from './Components/FAQ';
 import ForthSection from './Components/ForthSection';
 import EightSection from './Components/EightSection';
 import Footer from './Components/Footer';
+// import Navss from './Components/Navss';
+// import Mob from './Components/Mob';
 
 
 function App() {
@@ -24,8 +26,8 @@ function App() {
 
   return (
     <>
-      <Navbar/>  
       
+      <Navbar/>
      <SectionTwo/>
      <SectionThird/>
      <ForthSection/>
@@ -37,6 +39,8 @@ function App() {
      <SectionTen/>
      <FAQ/> 
      <Footer/>
+   
+     
     
       
     </>
